@@ -61,3 +61,4 @@ def test_fetch_vcr()-> None:
     """Test case for fetch method using VCR"""
     response = fetch(url="https://api.publicapis.org/entries")
     assert response.status_code == 200
+    
